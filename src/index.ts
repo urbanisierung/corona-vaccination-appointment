@@ -23,6 +23,7 @@ async function run() {
       `========== Iteration ${iteration} done, waiting for ${waitingSeconds} seconds (${new Date().toISOString()}) ==========`
     )
     await TimerUtils.sleep(waitingSeconds)
+    iteration++
   }
 }
 

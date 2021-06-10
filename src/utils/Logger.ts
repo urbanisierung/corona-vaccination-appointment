@@ -5,13 +5,13 @@ dotenv.config()
 
 // locally using pretty config: https://github.com/pinojs/pino-pretty
 const localConfig = {
-  name: 'bootstrap',
+  name: 'covaccapp',
   level: 'debug',
   prettyPrint: { colorize: true },
 }
 
 const config = {
-  name: 'bootstrap',
+  name: 'covaccapp',
   level: 'debug',
 }
 
